@@ -58,7 +58,7 @@ type ConsensusTypeMetadataFactory interface {
 	NewMessage() proto.Message
 }
 
-// ConsensuTypeMetadataMap should have consensus implementations register their metadata message factories
+// ConsensusTypeMetadataMap should have consensus implementations register their metadata message factories
 var ConsensusTypeMetadataMap = map[string]ConsensusTypeMetadataFactory{}
 
 type ConsensusType struct {
