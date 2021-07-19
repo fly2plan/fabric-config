@@ -12,11 +12,11 @@ import (
 	"github.com/fly2plan/fabric-config/protolator/protoext/mspext"
 	"github.com/fly2plan/fabric-config/protolator/protoext/ordererext"
 	"github.com/fly2plan/fabric-config/protolator/protoext/peerext"
+	"github.com/fly2plan/fabric-protos-go/orderer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/common"
 	"github.com/hyperledger/fabric-protos-go/ledger/rwset"
 	"github.com/hyperledger/fabric-protos-go/msp"
-	"github.com/hyperledger/fabric-protos-go/orderer"
 	"github.com/hyperledger/fabric-protos-go/peer"
 )
 

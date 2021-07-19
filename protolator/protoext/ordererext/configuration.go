@@ -10,12 +10,12 @@ import (
 	"fmt"
 	"github.com/fly2plan/fabric-protos-go/orderer/hlmirbft"
 
+	"github.com/fly2plan/fabric-protos-go/common"
+	"github.com/fly2plan/fabric-protos-go/msp"
+	"github.com/fly2plan/fabric-protos-go/orderer"
+	"github.com/fly2plan/fabric-protos-go/orderer/etcdraft"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/hyperledger/fabric-protos-go/common"
-	"github.com/hyperledger/fabric-protos-go/msp"
-	"github.com/hyperledger/fabric-protos-go/orderer"
-	"github.com/hyperledger/fabric-protos-go/orderer/etcdraft"
 )
 
 type DynamicOrdererGroup struct {
